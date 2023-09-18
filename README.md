@@ -1,2 +1,2 @@
 # Landing-Page
-first landing page
+This is my first webpage built from scratch.
