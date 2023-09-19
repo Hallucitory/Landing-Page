@@ -1,0 +1,17 @@
+header {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+header ul {
+    display:flex;
+    margin: 0;
+    padding:0;
+    gap: 8px;
+    list-style-type: none;
+}
+
+header a {
+    text-decoration: none;
+}
