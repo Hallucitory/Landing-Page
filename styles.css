@@ -3,6 +3,7 @@ header {
     justify-content: space-around;
     align-items: center;
     background-color: #1F2937;
+    padding: 16px;
 }
 
 header ul {
@@ -13,6 +14,11 @@ header ul {
     list-style-type: none;
 }
 
+li {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 header a {
     text-decoration: none;
     color: #F9FAF8;
@@ -20,18 +26,45 @@ header a {
 
 .logo {
     font-size: 24px;
+    font-weight: bold;
 }
 
 .section-one {
     display: flex;
-    flex: 1 1 0;
     justify-content: center;
     align-items: center;
+    gap: 36px;
+    padding: 48px;
+    background-color: #1F2937;
 }
 
-.img {
-    background-color: grey;
-    color: #F9FAF8;
-    text-align: center;
+.hero-copy {
+    align-self: flex-start;
+    max-width: 450px;
+}
+
+img {
+    max-height: 300px;
     
+ }
+
+h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.hero-copy p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 8px 0px;
+}
+
+.butt-one {
+    padding: 4px 16px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 6px;
+    border-width: 0px;
 }
