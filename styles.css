@@ -1,5 +1,7 @@
 body {
     font-family: 'Roboto' , sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -171,4 +173,11 @@ blockquote {
     border-radius: 8px;
     border-style: solid;
     padding: 4px 20px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 40px 120px;
 }
