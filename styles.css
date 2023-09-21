@@ -138,3 +138,37 @@ blockquote {
    font-weight: bold;
 }
 
+.section-four {
+    padding: 150px 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-block {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    width: 850px;
+    height: 125px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24px;
+    border: #3882F6 solid;
+    border-radius: 16px;
+}
+
+.cta-one {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-color: #F9FAF8;
+    border-width: 2px;
+    border-radius: 8px;
+    border-style: solid;
+    padding: 4px 20px;
+}
